@@ -8,15 +8,30 @@
     <!-- This is considered internal HTML CSS Styling -->
     <style>
       body{
-        background-color:lightgray;
+        background-color: slategray;
       }
       h1{
-        background-color: blue;
-        color: white;
+        background-color: lightcyan;
+        color: black;
       }
       p{
-        color: red;
-
+        color:black;
+      }
+      p1{
+        background-color: darkcyan;
+        color:black
+      }
+      p2{
+        background-color: cornflowerblue;
+        color:black;
+      }
+      p3{
+        background-color: royalblue;
+        color:black;
+      }
+      p4{
+        background-color: blue;
+        color:white;
       }
     </style>
     <!-- This is considered external HTML CSS Styling -->
@@ -24,25 +39,39 @@
   </head>
   <body>
     <header>
-      <h1>Class 1</h1>
+      <h1>Class 1 Lab</h1>
     </header>
     <main>
       <p>What is your Name?</p>
       <!-- This is Inline CSS Styling -->
-      <p style="background-color: magenta; color: aqua">What is your Favorite Color?</p>
+      <p style="background-color: lightblue; color: black">What is your Favorite Color?</p>
+
+      <p1>Test 1</p1><br>
+      <p2>Test 2</p2><br>
+      <p3>Test 3</p3><br>
+      <p4>Test 4</p4><br>
     </main>
     <footer></footer>
     <script>
       console.log('how are you today?');
       // javascript will live here
 
-      let userResponse = prompt('What is your name?');
-      console.log('User response to Q1: ' + userResponse);
-      alert('Hey '+userResponse+'! Welcome to my site!');
+      let userResponseOne = prompt('What is your name?');
+      console.log('User response to Q1: ' + userResponseOne);
+      <p5></p5>
+      // alert('Hey '+userResponse+'! Welcome to my site!');
 
-      let userResponseTwo = prompt('what is your favorite color?');
-      alert('Wow ' + userResponse + ' your favorite color is ' + userResponseTwo + '? Me too!');
+      let userResponseTwo = prompt('What is your favorite color?');
+      // alert('Wow ' + userResponse + ' your favorite color is ' + userResponseTwo + '? Me too!');
       console.log('User response to Q2: ' + userResponseTwo);
+
+      let userResponseThree = prompt('What is your favorite food?');
+      console.log('User response to Q3: ' + userResponseThree);
+
+      let userResponseFour = prompt('What is your favorite hobby?');
+      console.log('User response to Q4: ' + userResponseFour);
+
+      alert('Hello ' + userResponseOne + '! I actually dislike the color ' + userResponseTwo + '. ' + userResponseThree + ' does sound delicious though and your hobby of ' + userResponseFour + ' sounds really interesting!');
 
     </script>
   </body>
