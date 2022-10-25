@@ -1,0 +1,29 @@
+h1{
+  font-family: helvetica;
+  color:turquoise;
+  background-color:bisque;
+}
+p{
+  color: red;
+}
+
+section p.more-content {
+  color: blue;
+}
+
+.even-more-content {
+  background-color: green;
+}
+
+#something-else{
+  background-color:blanchedalmond
+}
+
+ul.during-class {
+  background-color:cornsilk;
+}
+
+ol.after-class {
+  background-color:black;
+  color:white;
+}
